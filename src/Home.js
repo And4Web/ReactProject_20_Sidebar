@@ -1,10 +1,14 @@
 import React from 'react'
+import {FaBars} from 'react-icons/fa'
 
 function Home() {
   return (
-    <div>
-      <h1>Home Component</h1>
-    </div>
+    <main>
+      <button className="sidebar-toggle">
+        <FaBars/>
+      </button>
+      <button className="btn">Show Modal</button>
+    </main>
   )
 }
 

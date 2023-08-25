@@ -6,7 +6,6 @@ import Sidebar from './Sidebar';
 function App() {
   return (
     <div >
-      <h1>Modal-Sidebar Project</h1>
       <Home/>
       <Modal/>
       <Sidebar/>
